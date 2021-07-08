@@ -29,7 +29,7 @@ def loki():
             if(player_score == 100):
                print("You win. Yay🎉🎉")
             elif(player_score== 0):
-               print("You loose ☹ Better luck next time.")
+               print("You lose ☹ Better luck next time.")
         elif(choosen_weapon=="dagger"):
             print("You have choosen dagger. You have three moves: stab, dodge ,run. enter your move below:")
             while(player_score>0 and player_score<100):
@@ -48,4 +48,4 @@ def loki():
             if(player_score == 100):
                print("You win. Yay🎉🎉")
             elif(player_score== 0):
-               print("You loose ☹.Better luck next time.")
+               print("You lose ☹.Better luck next time.")
