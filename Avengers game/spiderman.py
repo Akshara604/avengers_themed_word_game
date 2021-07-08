@@ -29,5 +29,5 @@ def spider_man():
         if(player_score == 100):
                print("You win. Yay🎉🎉")
         elif(player_score== 0):
-               print("You loose ☹ Better luck next time.")
+               print("You lose ☹ Better luck next time.")
         
