@@ -39,7 +39,7 @@ def loki():
                   player_score += 10
                   print(f"Your current score: {player_score}")
                 elif(moves =="dodge"):
-                  print(random.choice(phr2) +" no score for anyone")
+                  print(random.choice(phr2) +" no score.")
                   print(f"Your current score: {player_score}")
                 elif(moves =="run"):
                   print(random.choice(phr3) +" You lost 10 points.")
